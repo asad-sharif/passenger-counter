@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.container {
+    margin: 4rem auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.increment-btn {
+    background-color: green;
+    color: white;
+}
+
+.count {
+    background-color: black;
+    color: white;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.saved-entries li{
+font-size: .8rem;
+}
